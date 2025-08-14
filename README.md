@@ -13,10 +13,8 @@ This technology has profound implications for creating a more accessible and con
 * **A Bridge for the Hearing Impaired:** For individuals who are deaf or hard of hearing, this can act as a powerful real-time transcription tool in situations where a sign language interpreter isn't available or in noisy environments where hearing aids struggle.
 
 * **Communication in Silence:** Think of places where silence is golden (like a library) or where noise is overwhelming (like a factory floor). This technology allows for communication without a single sound being uttered.
-
-* **Enhanced Security:** It can be used as a secondary layer for voice authentication, verifying a speaker's identity by matching their lip movements to their words.
-
-## Its working
+* 
+## Working of Project
 
 This project uses a sophisticated deep neural network to achieve its goal. Here’s a simplified breakdown of the process from the notebook:
 
