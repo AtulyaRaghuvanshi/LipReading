@@ -6,7 +6,7 @@ It's a demonstration of how far AI has come, moving from understanding just text
 
 ## Why Does This Matter? The Human Impact
 
-Beyond being a cool technical demo, this technology has profound implications for creating a more accessible and connected world.
+This technology has profound implications for creating a more accessible and connected world.
 
 * **Empowering the Visually Impaired:** Imagine a future where assistive technologies can describe not just the objects in a room, but also what people are saying, even if they can't be heard. This can provide a richer, more complete sense of a social environment, fostering greater connection and understanding.
 
@@ -16,7 +16,7 @@ Beyond being a cool technical demo, this technology has profound implications fo
 
 * **Enhanced Security:** It can be used as a secondary layer for voice authentication, verifying a speaker's identity by matching their lip movements to their words.
 
-## How It Works: A Peek Under the Hood
+## Its working
 
 This project uses a sophisticated deep neural network to achieve its goal. Here’s a simplified breakdown of the process from the notebook:
 
@@ -55,17 +55,13 @@ To train the model from scratch, you can run all the cells in the `LipNet.ipynb`
 
 ### 4. Making a Prediction
 
-If you want to skip the lengthy training process, you can! The notebook allows you to load the pre-trained weights and immediately test the model on a sample video from the dataset.
+If you want to skip the lengthy training process, the notebook allows you to load the pre-trained weights and immediately test the model on a sample video from the dataset.
 
 You'll see an output like this, comparing the ground truth with the model's prediction:
 
 ```text
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ REAL TEXT
-'Hi I am Atulya'
+'bin p blue'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PREDICTIONS
-'Hi I am Atulya'
+'bin p blue'
 ```
-
----
-
-This project is a window into the future of human-computer interaction. Feel free to experiment with it, and perhaps even think of new ways this incredible technology can be used to help people. 
