@@ -51,13 +51,11 @@ To train the model from scratch, you can run all the cells in the `LipNet.ipynb`
 * Load and preprocess the data.
 * Build the neural network.
 * Compile the model with the `CTCLoss` function.
-* Begin the training process, saving checkpoints along the way.
+* Begin the training process.
 
 ### 4. Making a Prediction
 
-If you want to skip the lengthy training process, the notebook allows you to load the pre-trained weights and immediately test the model on a sample video from the dataset.
-
-You'll see an output like this, comparing the ground truth with the model's prediction:
+Once model is fully trained, you'll see an output like this, comparing the ground truth with the model's prediction whenever you give a sample test video to it:
 
 ```text
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ REAL TEXT
